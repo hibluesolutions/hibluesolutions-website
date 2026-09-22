@@ -9,7 +9,7 @@ const services = [
     tagline: "GPS-Tracked · Verified Drivers · 24/7 Coverage",
     description:
       "Hi Blue Solutions is one of Bangalore's premier pick-and-drop service providers. Our experienced, verified drivers operate GPS-tracked fleets to ensure every employee — from IT engineers to BPO staff — commutes safely, comfortably, and on time.",
-    image: "/images/service-transportation.jpg",
+    image: "/hibluesolutions-website/images/service-transportation.jpg",
     icon: Car,
     features: [
       "MNC (IT & BPO) end-to-end transportation",
@@ -32,7 +32,7 @@ const services = [
     tagline: "Trained Staff · Scalable Workforce · All Domains",
     description:
       "We provide highly trained, industry-certified manpower for a wide spectrum of facility needs. From cafeteria management to electrical maintenance, our staff integrate seamlessly into your operations — reducing your vendor count and costs in one move.",
-    image: "/images/service-manpower.jpg",
+    image: "/hibluesolutions-website/images/service-manpower.jpg",
     icon: Users,
     features: [
       "Facility Management Services",
@@ -55,7 +55,7 @@ const services = [
     tagline: "Trained Guards · Industrial Security · Zero Incidents",
     description:
       "Security and surveillance are non-negotiable for any reputed business. Our highly trained security personnel — including ex-servicemen — provide robust perimeter protection, access control, and 24/7 surveillance for corporate campuses and industrial facilities across Bangalore.",
-    image: "/images/service-security.jpg",
+    image: "/hibluesolutions-website/images/service-security.jpg",
     icon: ShieldCheck,
     features: [
       "Corporate & Industrial Security",

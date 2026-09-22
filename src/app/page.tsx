@@ -25,7 +25,7 @@ const services = [
     subtitle: "GPS-Tracked Corporate Cabs",
     description:
       "End-to-end pick & drop services for MNCs, IT parks, and BPOs. Our verified drivers operate GPS-tracked fleets ensuring your employees reach safely — day or night.",
-    image: "/images/service-transportation.jpg",
+    image: "/hibluesolutions-website/images/service-transportation.jpg",
     href: "/services#transportation",
     features: [
       "GPS-tracked fleet 24/7",
@@ -42,7 +42,7 @@ const services = [
     subtitle: "Complete Facility Management",
     description:
       "Expert staffing solutions for facility management, cafeteria operations, electrical maintenance, and housekeeping — all trained, certified, and ready to deploy.",
-    image: "/images/service-manpower.jpg",
+    image: "/hibluesolutions-website/images/service-manpower.jpg",
     href: "/services#manpower",
     features: [
       "Trained & certified personnel",
@@ -59,7 +59,7 @@ const services = [
     subtitle: "Elite Security Personnel",
     description:
       "Highly trained security guards providing 24/7 surveillance, access control, and complete perimeter protection for corporate campuses and industrial facilities.",
-    image: "/images/service-security.jpg",
+    image: "/hibluesolutions-website/images/service-security.jpg",
     href: "/services#security",
     features: [
       "Ex-servicemen & trained guards",
@@ -130,7 +130,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/hero-bg.jpg"
+            src="/hibluesolutions-website/images/hero-bg.jpg"
             alt="Hi Blue Solutions Corporate Fleet"
             className="w-full h-full object-cover object-center"
           />
@@ -322,7 +322,7 @@ export default function Home() {
               <div className="absolute top-8 -left-8 w-32 h-32 bg-[#0170B9] rounded-2xl opacity-10 -z-10" />
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/about-team.jpg"
+                src="/hibluesolutions-website/images/about-team.jpg"
                 alt="Hi Blue Solutions Leadership Team"
                 className="rounded-[2.5rem] shadow-2xl w-full object-cover aspect-[4/3]"
               />
