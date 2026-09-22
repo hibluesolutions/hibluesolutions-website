@@ -87,7 +87,7 @@ export default function AboutPage() {
               <div className="absolute -inset-4 bg-gradient-to-br from-blue-50 to-transparent rounded-[3rem] -z-10" />
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/hibluesolutions-website/images/about-team.jpg"
+                src="/images/about-team.jpg"
                 alt="Hi Blue Solutions Corporate Fleet"
                 className="w-full rounded-[2.5rem] shadow-2xl aspect-[4/3] object-cover"
               />
