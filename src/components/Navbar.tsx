@@ -78,8 +78,8 @@ export default function Navbar() {
         }`}
       >
         <nav className="container mx-auto px-4 md:px-8 flex justify-between items-center">
-          {/* Logo */}
-          <Link href="/" className="flex items-center z-50 shrink-0">
+          {/* Logo & Mobile Brand Text */}
+          <Link href="/" className="flex items-center gap-3 z-50 shrink-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="https://hibluesolutions.in/wp-content/uploads/2022/12/HBS.png"
@@ -88,6 +88,12 @@ export default function Navbar() {
                 scrolled ? "h-10 lg:h-20" : "h-12 lg:h-24"
               }`}
             />
+            <span 
+              className="lg:hidden text-lg sm:text-xl font-black tracking-tight text-slate-900 leading-none"
+              style={{ fontFamily: "var(--font-display)" }}
+            >
+              Hi Blue Solutions
+            </span>
           </Link>
 
           {/* ── Desktop Links ── */}
