@@ -89,10 +89,10 @@ export default function Navbar() {
               }`}
             />
             <span 
-              className="lg:hidden text-lg sm:text-xl font-black tracking-tight text-slate-900 leading-none"
+              className="lg:hidden text-[1.1rem] sm:text-xl font-extrabold tracking-tight leading-none"
               style={{ fontFamily: "var(--font-display)" }}
             >
-              Hi Blue Solutions
+              <span className="text-[#0170B9]">Hi Blue</span> <span className="text-slate-700 font-bold">Solutions</span>
             </span>
           </Link>
 
