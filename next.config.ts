@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  // Set basePath for GitHub pages so assets load correctly
+  trailingSlash: true,
   images: {
     unoptimized: true,
     remotePatterns: [
