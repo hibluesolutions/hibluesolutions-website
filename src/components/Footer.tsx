@@ -210,9 +210,14 @@ export default function Footer() {
           </p>
           <p className="flex items-center gap-1.5">
             Designed &amp; Maintained by{" "}
-            <span className="text-[#38bdf8] font-semibold">
+            <a 
+              href="https://thoshotech.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-[#38bdf8] font-semibold hover:text-white transition-colors"
+            >
               Thosho Tech
-            </span>
+            </a>
           </p>
         </div>
       </div>
