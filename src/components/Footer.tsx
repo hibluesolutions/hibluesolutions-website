@@ -74,7 +74,7 @@ export default function Footer() {
           <div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://hibluesolutions.in/wp-content/uploads/2022/12/HBS-copy.png"
+              src="/images/logo-white.png"
               alt="Hi Blue Solutions"
               className="h-14 lg:h-28 w-auto mb-6 brightness-200 object-contain"
             />

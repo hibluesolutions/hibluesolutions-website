@@ -82,7 +82,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-3 z-50 shrink-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://hibluesolutions.in/wp-content/uploads/2022/12/HBS.png"
+              src="/images/logo.png"
               alt="Hi Blue Solutions"
               className={`w-auto object-contain transition-all duration-300 ${
                 scrolled ? "h-10 lg:h-20" : "h-12 lg:h-24"
@@ -193,7 +193,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between p-6 border-b border-slate-100">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://hibluesolutions.in/wp-content/uploads/2022/12/HBS.png"
+              src="/images/logo.png"
               alt="Hi Blue Solutions"
               className="h-10 w-auto"
             />
