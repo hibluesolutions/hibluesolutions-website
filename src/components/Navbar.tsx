@@ -85,11 +85,11 @@ export default function Navbar() {
               src="/images/logo.png"
               alt="Hi Blue Solutions"
               className={`w-auto object-contain transition-all duration-300 ${
-                scrolled ? "h-10 lg:h-20" : "h-12 lg:h-24"
+                scrolled ? "h-10 md:h-20" : "h-12 md:h-24"
               }`}
             />
             <span 
-              className="lg:hidden text-[1.1rem] sm:text-xl font-extrabold tracking-tight leading-none"
+              className="md:hidden text-[1.1rem] sm:text-xl font-extrabold tracking-tight leading-none"
               style={{ fontFamily: "var(--font-display)" }}
             >
               <span className="text-[#0170B9]">Hi Blue</span> <span className="text-slate-700 font-bold">Solutions</span>
@@ -97,7 +97,7 @@ export default function Navbar() {
           </Link>
 
           {/* ── Desktop Links ── */}
-          <div className="hidden lg:flex items-center gap-1 text-sm font-semibold text-slate-700">
+          <div className="hidden md:flex items-center gap-1 text-sm font-semibold text-slate-700">
             {navLinks.map((link) =>
               link.dropdown ? (
                 <div
@@ -162,7 +162,7 @@ export default function Navbar() {
 
           {/* Mobile Toggle */}
           <button
-            className="lg:hidden z-50 p-2 text-slate-800 rounded-lg hover:bg-slate-100 transition focus:outline-none"
+            className="md:hidden z-50 p-2 text-slate-800 rounded-lg hover:bg-slate-100 transition focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle Menu"
             aria-expanded={isOpen}
@@ -174,7 +174,7 @@ export default function Navbar() {
 
       {/* ── Mobile Menu Overlay ── */}
       <div
-        className={`fixed inset-0 z-40 transition-all duration-300 lg:hidden ${
+        className={`fixed inset-0 z-40 transition-all duration-300 md:hidden ${
           isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
       >
